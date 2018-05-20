@@ -1,0 +1,129 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CFBModeWorker"
+provides-nominal:
+- "11CryptoSwift13CFBModeWorkerV"
+provides-member:
+- ["11CryptoSwift13CFBModeWorkerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "Array"
+- "ArraySlice"
+- "AssignmentPrecedence"
+- "BlockModeWorker"
+- "CFBModeWorker"
+- "CipherOperationOnBlock"
+- "UInt8"
+- !private "xor"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "slice"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "slice"]
+- !private ["11CryptoSwift15BlockModeWorkerP", "Array"]
+- ["11CryptoSwift15BlockModeWorkerP", "cipherOperation"]
+- ["11CryptoSwift15BlockModeWorkerP", "decrypt"]
+- ["11CryptoSwift15BlockModeWorkerP", "encrypt"]
+- !private ["11CryptoSwift15BlockModeWorkerP", "iv"]
+- !private ["11CryptoSwift15BlockModeWorkerP", "prev"]
+- !private ["11CryptoSwift15BlockModeWorkerP", "xor"]
+- ["11CryptoSwift15BlockModeWorkerP", ""]
+- ["11CryptoSwift13CFBModeWorkerV", "Array"]
+- ["11CryptoSwift13CFBModeWorkerV", "ArraySlice"]
+- ["11CryptoSwift13CFBModeWorkerV", "CipherOperationOnBlock"]
+- ["11CryptoSwift13CFBModeWorkerV", "UInt8"]
+- ["11CryptoSwift13CFBModeWorkerV", "cipherOperation"]
+- ["11CryptoSwift13CFBModeWorkerV", "decrypt"]
+- ["11CryptoSwift13CFBModeWorkerV", "deinit"]
+- ["11CryptoSwift13CFBModeWorkerV", "encrypt"]
+- ["11CryptoSwift13CFBModeWorkerV", "init"]
+- !private ["11CryptoSwift13CFBModeWorkerV", "iv"]
+- !private ["11CryptoSwift13CFBModeWorkerV", "prev"]
+- !private ["11CryptoSwift13CFBModeWorkerV", "xor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "slice"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "slice"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "slice"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "slice"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "slice"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "slice"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "slice"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "slice"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "slice"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "slice"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "slice"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "slice"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "slice"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "slice"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "slice"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "slice"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "slice"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "slice"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "slice"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "slice"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "slice"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "11CryptoSwift15BlockModeWorkerP"
+- "11CryptoSwift13CFBModeWorkerV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "33b132d0b72edd08b4f28f17a5b8b46c"

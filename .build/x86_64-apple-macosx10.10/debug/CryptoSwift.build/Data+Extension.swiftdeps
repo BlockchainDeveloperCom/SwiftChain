@@ -1,0 +1,452 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10Foundation4DataV", ""]
+- ["10Foundation4DataV", "checksum"]
+- ["10Foundation4DataV", "md5"]
+- ["10Foundation4DataV", "sha1"]
+- ["10Foundation4DataV", "sha224"]
+- ["10Foundation4DataV", "sha256"]
+- ["10Foundation4DataV", "sha384"]
+- ["10Foundation4DataV", "sha512"]
+- ["10Foundation4DataV", "sha3"]
+- ["10Foundation4DataV", "crc32"]
+- ["10Foundation4DataV", "crc16"]
+- ["10Foundation4DataV", "encrypt"]
+- ["10Foundation4DataV", "decrypt"]
+- ["10Foundation4DataV", "authenticate"]
+- ["10Foundation4DataV", "bytes"]
+- ["10Foundation4DataV", "toHexString"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "%"
+- !private "+"
+- !private "..<"
+- "Array"
+- "AssignmentPrecedence"
+- "Authenticator"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Checksum"
+- "Cipher"
+- "Data"
+- !private "Digest"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SHA3"
+- "String"
+- "UInt16"
+- "UInt32"
+- "UInt8"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "slice"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "toHexString"]
+- !private ["11CryptoSwift13AuthenticatorP", "authenticate"]
+- !private ["s23BidirectionalCollectionP", "Array"]
+- !private ["s23BidirectionalCollectionP", "Checksum"]
+- !private ["s23BidirectionalCollectionP", "Data"]
+- !private ["s23BidirectionalCollectionP", "Digest"]
+- !private ["s23BidirectionalCollectionP", "UInt16"]
+- !private ["s23BidirectionalCollectionP", "UInt32"]
+- !private ["s23BidirectionalCollectionP", "bytes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "slice"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "toHexString"]
+- !private ["s13BinaryIntegerP", "bytes"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s7CVarArgP", "bytes"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "slice"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toHexString"]
+- !private ["11CryptoSwift8ChecksumC", "crc16"]
+- !private ["11CryptoSwift8ChecksumC", "crc32"]
+- !private ["11CryptoSwift6CipherP", "decrypt"]
+- !private ["11CryptoSwift6CipherP", "encrypt"]
+- !private ["s10CollectionP", "Array"]
+- !private ["s10CollectionP", "Checksum"]
+- !private ["s10CollectionP", "Data"]
+- !private ["s10CollectionP", "Digest"]
+- !private ["s10CollectionP", "UInt16"]
+- !private ["s10CollectionP", "UInt32"]
+- !private ["s10CollectionP", "bytes"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "slice"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "toHexString"]
+- !private ["s10ComparableP", "bytes"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Checksum"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Digest"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt16"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "bytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "slice"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toHexString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Array"]
+- !private ["s17CustomReflectableP", "Checksum"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Digest"]
+- !private ["s17CustomReflectableP", "UInt16"]
+- !private ["s17CustomReflectableP", "UInt32"]
+- !private ["s17CustomReflectableP", "bytes"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "slice"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toHexString"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Checksum"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Digest"]
+- !private ["s23CustomStringConvertibleP", "UInt16"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "slice"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toHexString"]
+- ["10Foundation4DataV", "Array"]
+- ["10Foundation4DataV", "Authenticator"]
+- ["10Foundation4DataV", "Bool"]
+- !private ["10Foundation4DataV", "Checksum"]
+- ["10Foundation4DataV", "Cipher"]
+- ["10Foundation4DataV", "Data"]
+- !private ["10Foundation4DataV", "Digest"]
+- ["10Foundation4DataV", "SHA3"]
+- ["10Foundation4DataV", "String"]
+- ["10Foundation4DataV", "UInt16"]
+- ["10Foundation4DataV", "UInt32"]
+- ["10Foundation4DataV", "UInt8"]
+- ["10Foundation4DataV", "authenticate"]
+- ["10Foundation4DataV", "bytes"]
+- ["10Foundation4DataV", "checksum"]
+- ["10Foundation4DataV", "crc16"]
+- ["10Foundation4DataV", "crc32"]
+- ["10Foundation4DataV", "decrypt"]
+- ["10Foundation4DataV", "encrypt"]
+- !private ["10Foundation4DataV", "init"]
+- ["10Foundation4DataV", "md5"]
+- ["10Foundation4DataV", "sha1"]
+- ["10Foundation4DataV", "sha224"]
+- ["10Foundation4DataV", "sha256"]
+- ["10Foundation4DataV", "sha3"]
+- ["10Foundation4DataV", "sha384"]
+- ["10Foundation4DataV", "sha512"]
+- ["10Foundation4DataV", "toHexString"]
+- !private ["s9DecodableP", "Array"]
+- !private ["s9DecodableP", "Checksum"]
+- !private ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "Digest"]
+- !private ["s9DecodableP", "UInt16"]
+- !private ["s9DecodableP", "UInt32"]
+- !private ["s9DecodableP", "bytes"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "slice"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "toHexString"]
+- !private ["11CryptoSwift6DigestV", "md5"]
+- !private ["11CryptoSwift6DigestV", "sha1"]
+- !private ["11CryptoSwift6DigestV", "sha224"]
+- !private ["11CryptoSwift6DigestV", "sha256"]
+- !private ["11CryptoSwift6DigestV", "sha3"]
+- !private ["11CryptoSwift6DigestV", "sha384"]
+- !private ["11CryptoSwift6DigestV", "sha512"]
+- ["11CryptoSwift10DigestTypeP", "Variant"]
+- !private ["s9EncodableP", "Array"]
+- !private ["s9EncodableP", "Checksum"]
+- !private ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "Digest"]
+- !private ["s9EncodableP", "UInt16"]
+- !private ["s9EncodableP", "UInt32"]
+- !private ["s9EncodableP", "bytes"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "slice"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "toHexString"]
+- !private ["s9EquatableP", "Array"]
+- !private ["s9EquatableP", "Checksum"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Digest"]
+- !private ["s9EquatableP", "UInt16"]
+- !private ["s9EquatableP", "UInt32"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "slice"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "toHexString"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bytes"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "bytes"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Array"]
+- !private ["s8HashableP", "Checksum"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Digest"]
+- !private ["s8HashableP", "UInt16"]
+- !private ["s8HashableP", "UInt32"]
+- !private ["s8HashableP", "bytes"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "bytes"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s17MutableCollectionP", "Array"]
+- !private ["s17MutableCollectionP", "Checksum"]
+- !private ["s17MutableCollectionP", "Data"]
+- !private ["s17MutableCollectionP", "Digest"]
+- !private ["s17MutableCollectionP", "UInt16"]
+- !private ["s17MutableCollectionP", "UInt32"]
+- !private ["s17MutableCollectionP", "bytes"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "slice"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "toHexString"]
+- !private ["s7NumericP", "bytes"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "Array"]
+- !private ["s22RandomAccessCollectionP", "Checksum"]
+- !private ["s22RandomAccessCollectionP", "Data"]
+- !private ["s22RandomAccessCollectionP", "Digest"]
+- !private ["s22RandomAccessCollectionP", "UInt16"]
+- !private ["s22RandomAccessCollectionP", "UInt32"]
+- !private ["s22RandomAccessCollectionP", "bytes"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "slice"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "toHexString"]
+- !private ["s26RangeReplaceableCollectionP", "Array"]
+- !private ["s26RangeReplaceableCollectionP", "Checksum"]
+- !private ["s26RangeReplaceableCollectionP", "Data"]
+- !private ["s26RangeReplaceableCollectionP", "Digest"]
+- !private ["s26RangeReplaceableCollectionP", "UInt16"]
+- !private ["s26RangeReplaceableCollectionP", "UInt32"]
+- !private ["s26RangeReplaceableCollectionP", "bytes"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "slice"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "toHexString"]
+- !private ["10Foundation20ReferenceConvertibleP", "Array"]
+- !private ["10Foundation20ReferenceConvertibleP", "Checksum"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- !private ["10Foundation20ReferenceConvertibleP", "Digest"]
+- !private ["10Foundation20ReferenceConvertibleP", "UInt16"]
+- !private ["10Foundation20ReferenceConvertibleP", "UInt32"]
+- !private ["10Foundation20ReferenceConvertibleP", "bytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["11CryptoSwift4SHA3C", "Variant"]
+- !private ["s8SequenceP", "Array"]
+- !private ["s8SequenceP", "Checksum"]
+- !private ["s8SequenceP", "Data"]
+- !private ["s8SequenceP", "Digest"]
+- !private ["s8SequenceP", "UInt16"]
+- !private ["s8SequenceP", "UInt32"]
+- !private ["s8SequenceP", "bytes"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "slice"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "toHexString"]
+- !private ["s10StrideableP", "bytes"]
+- !private ["s10StrideableP", "init"]
+- !private ["s6UInt16V", "bytes"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt32V", "bytes"]
+- !private ["s6UInt32V", "init"]
+- !private ["s15UnsignedIntegerP", "bytes"]
+- !private ["s15UnsignedIntegerP", "init"]
+- ["11CryptoSwift9UpdatableP", "Variant"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "slice"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "toHexString"]
+- !private ["s23_BidirectionalIndexableP", "Array"]
+- !private ["s23_BidirectionalIndexableP", "Checksum"]
+- !private ["s23_BidirectionalIndexableP", "Data"]
+- !private ["s23_BidirectionalIndexableP", "Digest"]
+- !private ["s23_BidirectionalIndexableP", "UInt16"]
+- !private ["s23_BidirectionalIndexableP", "UInt32"]
+- !private ["s23_BidirectionalIndexableP", "bytes"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "slice"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "toHexString"]
+- !private ["s18_BitwiseOperationsP", "bytes"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "slice"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "toHexString"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bytes"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "Array"]
+- !private ["s10_IndexableP", "Checksum"]
+- !private ["s10_IndexableP", "Data"]
+- !private ["s10_IndexableP", "Digest"]
+- !private ["s10_IndexableP", "UInt16"]
+- !private ["s10_IndexableP", "UInt32"]
+- !private ["s10_IndexableP", "bytes"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "slice"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "toHexString"]
+- !private ["s14_IndexableBaseP", "Array"]
+- !private ["s14_IndexableBaseP", "Checksum"]
+- !private ["s14_IndexableBaseP", "Data"]
+- !private ["s14_IndexableBaseP", "Digest"]
+- !private ["s14_IndexableBaseP", "UInt16"]
+- !private ["s14_IndexableBaseP", "UInt32"]
+- !private ["s14_IndexableBaseP", "bytes"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "slice"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "toHexString"]
+- !private ["s17_MutableIndexableP", "Array"]
+- !private ["s17_MutableIndexableP", "Checksum"]
+- !private ["s17_MutableIndexableP", "Data"]
+- !private ["s17_MutableIndexableP", "Digest"]
+- !private ["s17_MutableIndexableP", "UInt16"]
+- !private ["s17_MutableIndexableP", "UInt32"]
+- !private ["s17_MutableIndexableP", "bytes"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "slice"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s17_MutableIndexableP", "toHexString"]
+- !private ["s21_ObjectiveCBridgeableP", "Array"]
+- !private ["s21_ObjectiveCBridgeableP", "Checksum"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Digest"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt16"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt32"]
+- !private ["s21_ObjectiveCBridgeableP", "bytes"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "slice"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toHexString"]
+- !private ["s22_RandomAccessIndexableP", "Array"]
+- !private ["s22_RandomAccessIndexableP", "Checksum"]
+- !private ["s22_RandomAccessIndexableP", "Data"]
+- !private ["s22_RandomAccessIndexableP", "Digest"]
+- !private ["s22_RandomAccessIndexableP", "UInt16"]
+- !private ["s22_RandomAccessIndexableP", "UInt32"]
+- !private ["s22_RandomAccessIndexableP", "bytes"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "slice"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "toHexString"]
+- !private ["s26_RangeReplaceableIndexableP", "Array"]
+- !private ["s26_RangeReplaceableIndexableP", "Checksum"]
+- !private ["s26_RangeReplaceableIndexableP", "Data"]
+- !private ["s26_RangeReplaceableIndexableP", "Digest"]
+- !private ["s26_RangeReplaceableIndexableP", "UInt16"]
+- !private ["s26_RangeReplaceableIndexableP", "UInt32"]
+- !private ["s26_RangeReplaceableIndexableP", "bytes"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "slice"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "toHexString"]
+- !private ["s11_StrideableP", "bytes"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s14_StringElementP", "bytes"]
+- !private ["s14_StringElementP", "init"]
+- !private ["11CryptoSwift11_UInt32TypeP", "bytes"]
+- !private ["11CryptoSwift11_UInt32TypeP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "11CryptoSwift13AuthenticatorP"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "11CryptoSwift8ChecksumC"
+- !private "11CryptoSwift6CipherP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "11CryptoSwift6DigestV"
+- "11CryptoSwift10DigestTypeP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "11CryptoSwift4SHA3C"
+- !private "s8SequenceP"
+- !private "s10StrideableP"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "s15UnsignedIntegerP"
+- "11CryptoSwift9UpdatableP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s14_StringElementP"
+- !private "11CryptoSwift11_UInt32TypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c9906a2297f6b88ef83c30102ef087f1"

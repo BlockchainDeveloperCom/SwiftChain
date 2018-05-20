@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaddingProtocol"
+- "Padding"
+provides-nominal:
+- "11CryptoSwift15PaddingProtocolP"
+- "11CryptoSwift7PaddingO"
+provides-member:
+- ["11CryptoSwift15PaddingProtocolP", ""]
+- ["11CryptoSwift7PaddingO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NoPadding"
+- !private "PKCS5"
+- !private "PKCS7"
+- "Padding"
+- "PaddingProtocol"
+- "UInt8"
+- !private "ZeroPadding"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EquatableP", "NoPadding"]
+- !private ["s9EquatableP", "PKCS5"]
+- !private ["s9EquatableP", "PKCS7"]
+- !private ["s9EquatableP", "ZeroPadding"]
+- ["s9EquatableP", "add"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "noPadding"]
+- ["s9EquatableP", "pkcs5"]
+- ["s9EquatableP", "pkcs7"]
+- ["s9EquatableP", "remove"]
+- ["s9EquatableP", "zeroPadding"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "NoPadding"]
+- !private ["s8HashableP", "PKCS5"]
+- !private ["s8HashableP", "PKCS7"]
+- !private ["s8HashableP", "ZeroPadding"]
+- ["s8HashableP", "add"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "noPadding"]
+- ["s8HashableP", "pkcs5"]
+- ["s8HashableP", "pkcs7"]
+- ["s8HashableP", "remove"]
+- ["s8HashableP", "zeroPadding"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["11CryptoSwift9NoPaddingV", "add"]
+- !private ["11CryptoSwift9NoPaddingV", "deinit"]
+- !private ["11CryptoSwift9NoPaddingV", "init"]
+- !private ["11CryptoSwift9NoPaddingV", "remove"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["11CryptoSwift5PKCS5O", "Padding"]
+- !private ["11CryptoSwift5PKCS7O", "Padding"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "add"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "deinit"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "init"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "remove"]
+- ["11CryptoSwift7PaddingO", "Array"]
+- ["11CryptoSwift7PaddingO", "Int"]
+- !private ["11CryptoSwift7PaddingO", "NoPadding"]
+- !private ["11CryptoSwift7PaddingO", "PKCS5"]
+- !private ["11CryptoSwift7PaddingO", "PKCS7"]
+- ["11CryptoSwift7PaddingO", "UInt8"]
+- !private ["11CryptoSwift7PaddingO", "ZeroPadding"]
+- ["11CryptoSwift7PaddingO", "__derived_enum_equals"]
+- ["11CryptoSwift7PaddingO", "add"]
+- ["11CryptoSwift7PaddingO", "deinit"]
+- ["11CryptoSwift7PaddingO", "hashValue"]
+- ["11CryptoSwift7PaddingO", "noPadding"]
+- ["11CryptoSwift7PaddingO", "pkcs5"]
+- ["11CryptoSwift7PaddingO", "pkcs7"]
+- ["11CryptoSwift7PaddingO", "remove"]
+- ["11CryptoSwift7PaddingO", "zeroPadding"]
+- ["11CryptoSwift15PaddingProtocolP", "Array"]
+- ["11CryptoSwift15PaddingProtocolP", "Int"]
+- !private ["11CryptoSwift15PaddingProtocolP", "NoPadding"]
+- !private ["11CryptoSwift15PaddingProtocolP", "PKCS5"]
+- !private ["11CryptoSwift15PaddingProtocolP", "PKCS7"]
+- ["11CryptoSwift15PaddingProtocolP", "UInt8"]
+- !private ["11CryptoSwift15PaddingProtocolP", "ZeroPadding"]
+- ["11CryptoSwift15PaddingProtocolP", "add"]
+- ["11CryptoSwift15PaddingProtocolP", "hashValue"]
+- !private ["11CryptoSwift15PaddingProtocolP", "init"]
+- ["11CryptoSwift15PaddingProtocolP", "noPadding"]
+- ["11CryptoSwift15PaddingProtocolP", "pkcs5"]
+- ["11CryptoSwift15PaddingProtocolP", "pkcs7"]
+- ["11CryptoSwift15PaddingProtocolP", "remove"]
+- ["11CryptoSwift15PaddingProtocolP", "zeroPadding"]
+- ["11CryptoSwift15PaddingProtocolP", ""]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["11CryptoSwift11ZeroPaddingV", "add"]
+- !private ["11CryptoSwift11ZeroPaddingV", "deinit"]
+- !private ["11CryptoSwift11ZeroPaddingV", "init"]
+- !private ["11CryptoSwift11ZeroPaddingV", "remove"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "11CryptoSwift9NoPaddingV"
+- !private "s7NumericP"
+- !private "11CryptoSwift5PKCS5O"
+- !private "11CryptoSwift5PKCS7O"
+- !private "11CryptoSwift12PKCS7PaddingV"
+- "11CryptoSwift7PaddingO"
+- "11CryptoSwift15PaddingProtocolP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "11CryptoSwift11ZeroPaddingV"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fdb79ef5ded21eb1aed9f7f646e29c2b"

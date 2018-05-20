@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/SwiftChain.d",
+    "object": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/SwiftChain.o",
+    "swift-dependencies": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/master.swiftdeps"
+  },
+  "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/Sources/Main.swift": {
+    "object": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/Main.swift.o",
+    "swiftmodule": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/Main~partial.swiftmodule",
+    "swift-dependencies": "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/.build/x86_64-apple-macosx10.10/release/SwiftChain.build/Main.swiftdeps"
+  }
+}

@@ -1,0 +1,301 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BatchedCollectionIndex"
+- "BatchedCollectionType"
+- "BatchedCollection"
+- "=="
+- "<"
+provides-nominal:
+- "11CryptoSwift22BatchedCollectionIndexV"
+- "11CryptoSwift21BatchedCollectionTypeP"
+- "11CryptoSwift17BatchedCollectionV"
+provides-member:
+- ["11CryptoSwift22BatchedCollectionIndexV", ""]
+- ["11CryptoSwift21BatchedCollectionTypeP", ""]
+- ["11CryptoSwift17BatchedCollectionV", ""]
+- ["s10CollectionP", ""]
+- ["s10CollectionP", "batched"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "??"
+- "BatchedCollection"
+- "BatchedCollectionIndex"
+- "BatchedCollectionType"
+- "Bool"
+- "Collection"
+- "Comparable"
+- "Range"
+depends-member:
+- ["11CryptoSwift17BatchedCollectionV", "Base"]
+- ["11CryptoSwift17BatchedCollectionV", "BatchedCollectionIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "Element"]
+- ["11CryptoSwift17BatchedCollectionV", "Index"]
+- ["11CryptoSwift17BatchedCollectionV", "IndexDistance"]
+- ["11CryptoSwift17BatchedCollectionV", "Indices"]
+- ["11CryptoSwift17BatchedCollectionV", "Iterator"]
+- ["11CryptoSwift17BatchedCollectionV", "SubSequence"]
+- ["11CryptoSwift17BatchedCollectionV", "_copyContents"]
+- ["11CryptoSwift17BatchedCollectionV", "_copyToContiguousArray"]
+- ["11CryptoSwift17BatchedCollectionV", "_customContainsEquatableElement"]
+- ["11CryptoSwift17BatchedCollectionV", "_customIndexOfEquatableElement"]
+- ["11CryptoSwift17BatchedCollectionV", "_failEarlyRangeCheck"]
+- ["11CryptoSwift17BatchedCollectionV", "_preprocessingPass"]
+- ["11CryptoSwift17BatchedCollectionV", "base"]
+- ["11CryptoSwift17BatchedCollectionV", "count"]
+- ["11CryptoSwift17BatchedCollectionV", "deinit"]
+- ["11CryptoSwift17BatchedCollectionV", "distance"]
+- ["11CryptoSwift17BatchedCollectionV", "drop"]
+- ["11CryptoSwift17BatchedCollectionV", "dropFirst"]
+- ["11CryptoSwift17BatchedCollectionV", "dropLast"]
+- ["11CryptoSwift17BatchedCollectionV", "endIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "filter"]
+- ["11CryptoSwift17BatchedCollectionV", "first"]
+- ["11CryptoSwift17BatchedCollectionV", "forEach"]
+- ["11CryptoSwift17BatchedCollectionV", "formIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "index"]
+- ["11CryptoSwift17BatchedCollectionV", "indices"]
+- ["11CryptoSwift17BatchedCollectionV", "init"]
+- ["11CryptoSwift17BatchedCollectionV", "isEmpty"]
+- ["11CryptoSwift17BatchedCollectionV", "makeIterator"]
+- ["11CryptoSwift17BatchedCollectionV", "map"]
+- !private ["11CryptoSwift17BatchedCollectionV", "nextBreak"]
+- ["11CryptoSwift17BatchedCollectionV", "prefix"]
+- ["11CryptoSwift17BatchedCollectionV", "size"]
+- ["11CryptoSwift17BatchedCollectionV", "split"]
+- ["11CryptoSwift17BatchedCollectionV", "startIndex"]
+- ["11CryptoSwift17BatchedCollectionV", "subscript"]
+- ["11CryptoSwift17BatchedCollectionV", "suffix"]
+- ["11CryptoSwift17BatchedCollectionV", "underestimatedCount"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "<"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "=="]
+- ["11CryptoSwift22BatchedCollectionIndexV", "Base"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "BatchedCollectionIndex"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "Bool"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "Range"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "deinit"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "init"]
+- ["11CryptoSwift22BatchedCollectionIndexV", "range"]
+- ["11CryptoSwift21BatchedCollectionTypeP", "Base"]
+- ["11CryptoSwift21BatchedCollectionTypeP", "Collection"]
+- ["s10CollectionP", "BatchedCollection"]
+- ["s10CollectionP", "Collection"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- ["s10CollectionP", "IndexDistance"]
+- ["s10CollectionP", "Indices"]
+- ["s10CollectionP", "Iterator"]
+- ["s10CollectionP", "Self"]
+- ["s10CollectionP", "SubSequence"]
+- ["s10CollectionP", "_copyContents"]
+- ["s10CollectionP", "_copyToContiguousArray"]
+- ["s10CollectionP", "_customContainsEquatableElement"]
+- ["s10CollectionP", "_customIndexOfEquatableElement"]
+- ["s10CollectionP", "_failEarlyRangeCheck"]
+- ["s10CollectionP", "_preprocessingPass"]
+- !private ["s10CollectionP", "base"]
+- ["s10CollectionP", "batched"]
+- ["s10CollectionP", "count"]
+- ["s10CollectionP", "distance"]
+- ["s10CollectionP", "drop"]
+- ["s10CollectionP", "dropFirst"]
+- ["s10CollectionP", "dropLast"]
+- ["s10CollectionP", "endIndex"]
+- ["s10CollectionP", "filter"]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "formIndex"]
+- ["s10CollectionP", "index"]
+- ["s10CollectionP", "indices"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "isEmpty"]
+- ["s10CollectionP", "makeIterator"]
+- ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "nextBreak"]
+- ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "size"]
+- ["s10CollectionP", "split"]
+- ["s10CollectionP", "startIndex"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "suffix"]
+- ["s10CollectionP", "underestimatedCount"]
+- ["s10CollectionP", ""]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "range"]
+- ["s10ComparableP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lowerBound"]
+- !private ["s9EquatableP", "range"]
+- !private ["s9EquatableP", "upperBound"]
+- ["s9EquatableP", ""]
+- !private ["s5RangeV", "lowerBound"]
+- !private ["s5RangeV", "upperBound"]
+- !private ["s15RangeExpressionP", "lowerBound"]
+- !private ["s15RangeExpressionP", "upperBound"]
+- ["s8SequenceP", "BatchedCollection"]
+- ["s8SequenceP", "Collection"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- ["s8SequenceP", "IndexDistance"]
+- ["s8SequenceP", "Indices"]
+- ["s8SequenceP", "Iterator"]
+- ["s8SequenceP", "Self"]
+- ["s8SequenceP", "SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_customIndexOfEquatableElement"]
+- ["s8SequenceP", "_failEarlyRangeCheck"]
+- ["s8SequenceP", "_preprocessingPass"]
+- !private ["s8SequenceP", "base"]
+- ["s8SequenceP", "count"]
+- ["s8SequenceP", "distance"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- ["s8SequenceP", "endIndex"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "formIndex"]
+- ["s8SequenceP", "index"]
+- ["s8SequenceP", "indices"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "isEmpty"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "nextBreak"]
+- ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "size"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "startIndex"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- ["s8SequenceP", "underestimatedCount"]
+- ["s8SequenceP", ""]
+- ["s10_IndexableP", "BatchedCollection"]
+- ["s10_IndexableP", "Collection"]
+- ["s10_IndexableP", "Element"]
+- ["s10_IndexableP", "Index"]
+- ["s10_IndexableP", "IndexDistance"]
+- ["s10_IndexableP", "Indices"]
+- ["s10_IndexableP", "Iterator"]
+- ["s10_IndexableP", "Self"]
+- ["s10_IndexableP", "SubSequence"]
+- ["s10_IndexableP", "_copyContents"]
+- ["s10_IndexableP", "_copyToContiguousArray"]
+- ["s10_IndexableP", "_customContainsEquatableElement"]
+- ["s10_IndexableP", "_customIndexOfEquatableElement"]
+- ["s10_IndexableP", "_failEarlyRangeCheck"]
+- ["s10_IndexableP", "_preprocessingPass"]
+- !private ["s10_IndexableP", "base"]
+- ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "distance"]
+- ["s10_IndexableP", "drop"]
+- ["s10_IndexableP", "dropFirst"]
+- ["s10_IndexableP", "dropLast"]
+- ["s10_IndexableP", "endIndex"]
+- ["s10_IndexableP", "filter"]
+- ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "forEach"]
+- ["s10_IndexableP", "formIndex"]
+- ["s10_IndexableP", "index"]
+- ["s10_IndexableP", "indices"]
+- !private ["s10_IndexableP", "init"]
+- ["s10_IndexableP", "isEmpty"]
+- ["s10_IndexableP", "makeIterator"]
+- ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "nextBreak"]
+- ["s10_IndexableP", "prefix"]
+- !private ["s10_IndexableP", "size"]
+- ["s10_IndexableP", "split"]
+- ["s10_IndexableP", "startIndex"]
+- ["s10_IndexableP", "subscript"]
+- ["s10_IndexableP", "suffix"]
+- ["s10_IndexableP", "underestimatedCount"]
+- ["s10_IndexableP", ""]
+- ["s14_IndexableBaseP", "BatchedCollection"]
+- ["s14_IndexableBaseP", "Collection"]
+- ["s14_IndexableBaseP", "Element"]
+- ["s14_IndexableBaseP", "Index"]
+- ["s14_IndexableBaseP", "IndexDistance"]
+- ["s14_IndexableBaseP", "Indices"]
+- ["s14_IndexableBaseP", "Iterator"]
+- ["s14_IndexableBaseP", "Self"]
+- ["s14_IndexableBaseP", "SubSequence"]
+- ["s14_IndexableBaseP", "_copyContents"]
+- ["s14_IndexableBaseP", "_copyToContiguousArray"]
+- ["s14_IndexableBaseP", "_customContainsEquatableElement"]
+- ["s14_IndexableBaseP", "_customIndexOfEquatableElement"]
+- ["s14_IndexableBaseP", "_failEarlyRangeCheck"]
+- ["s14_IndexableBaseP", "_preprocessingPass"]
+- !private ["s14_IndexableBaseP", "base"]
+- ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "distance"]
+- ["s14_IndexableBaseP", "drop"]
+- ["s14_IndexableBaseP", "dropFirst"]
+- ["s14_IndexableBaseP", "dropLast"]
+- ["s14_IndexableBaseP", "endIndex"]
+- ["s14_IndexableBaseP", "filter"]
+- ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "forEach"]
+- ["s14_IndexableBaseP", "formIndex"]
+- ["s14_IndexableBaseP", "index"]
+- ["s14_IndexableBaseP", "indices"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["s14_IndexableBaseP", "isEmpty"]
+- ["s14_IndexableBaseP", "makeIterator"]
+- ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "nextBreak"]
+- ["s14_IndexableBaseP", "prefix"]
+- !private ["s14_IndexableBaseP", "size"]
+- ["s14_IndexableBaseP", "split"]
+- ["s14_IndexableBaseP", "startIndex"]
+- ["s14_IndexableBaseP", "subscript"]
+- ["s14_IndexableBaseP", "suffix"]
+- ["s14_IndexableBaseP", "underestimatedCount"]
+- ["s14_IndexableBaseP", ""]
+depends-nominal:
+- "11CryptoSwift17BatchedCollectionV"
+- "11CryptoSwift22BatchedCollectionIndexV"
+- "11CryptoSwift21BatchedCollectionTypeP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- "s8SequenceP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "dbf49a7e5ba12d6e6688798d03f747c7"
