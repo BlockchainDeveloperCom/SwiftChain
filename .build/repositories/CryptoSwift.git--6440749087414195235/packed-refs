@@ -1,5 +1,4 @@
-# pack-refs with: peeled fully-peeled 
-92b6d8c8568c8f4365c2c19a3f8da305d2b5cf01 refs/heads/add-code-of-conduct-1
+# pack-refs with: peeled fully-peeled sorted 
 7f56fe7126bdaf10143f575e36af95058fe13c2d refs/heads/develop
 6c3923c46a883b1a703b9d9892ee38ccee598100 refs/heads/gh-pages
 062168dcd01a2c4b66d906ebef9ad0cab4c21443 refs/heads/master
@@ -194,19 +193,16 @@ d322f5c19af7e6b9dc1537e03eb25867ed19b017 refs/pull/536/head
 2bc876991b8fb3a9c57395b92b3608e64fd686a5 refs/pull/556/merge
 a4ef615b958a956662f2d90a8ca15d9051fd6d3d refs/pull/558/head
 beea9746f7f721ad2e09d497e3a8d61eeecf5ca8 refs/pull/567/head
-24df31c0545ed847736cd17c75473e7459e350e2 refs/pull/567/merge
 1dd170a3b9a1113e7e9577cf7dfbde353faaffe1 refs/pull/571/head
 5491a01d00d70d35a6f01ce49fed2ea32f29c5f0 refs/pull/578/head
 f2970b59faeb27df85c585460eca05ac86678638 refs/pull/58/head
 1a399492c919ca7d267e2d4a62172e0eb7f5d912 refs/pull/580/head
 6b5f1603581c0d702e34a74319ad53c67b4fa3c9 refs/pull/580/merge
 43bac3708b07d4c40b19b78a96fe20f4191bc724 refs/pull/583/head
-22407310c2d9315808d57684c96a057e76e71cf4 refs/pull/583/merge
 bffc851967329592e87fb95e224b9b54847b704d refs/pull/585/head
 452018549ddcf7da230b84a19c04c66ac7dc6dd8 refs/pull/586/head
 a0148e21968f54b894df30466736ea58f1903c79 refs/pull/586/merge
 90730358a5749b45e6d8d6bf2adb092e2f0c639d refs/pull/587/head
-f810b474f421addda5713e49e9d92c5165c9d870 refs/pull/587/merge
 a53ba92685280b181d52f706bfb54ae37ddf5f93 refs/pull/59/head
 dc6200f70a4e21904216c1b4416a97f5572c3bfd refs/pull/59/merge
 3753ee7be59617961a5a967347032cc8111c55dd refs/pull/61/head

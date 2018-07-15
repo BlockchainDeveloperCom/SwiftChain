@@ -1,7 +1,6 @@
-92b6d8c8568c8f4365c2c19a3f8da305d2b5cf01	not-for-merge	branch 'add-code-of-conduct-1' of https://github.com/krzyzanowskim/CryptoSwift
-7f56fe7126bdaf10143f575e36af95058fe13c2d	not-for-merge	branch 'develop' of https://github.com/krzyzanowskim/CryptoSwift
+3ff4b5950a355349bc7e10819cec6cdad3cd7205	not-for-merge	branch 'develop' of https://github.com/krzyzanowskim/CryptoSwift
 6c3923c46a883b1a703b9d9892ee38ccee598100	not-for-merge	branch 'gh-pages' of https://github.com/krzyzanowskim/CryptoSwift
-062168dcd01a2c4b66d906ebef9ad0cab4c21443	not-for-merge	branch 'master' of https://github.com/krzyzanowskim/CryptoSwift
+3ff4b5950a355349bc7e10819cec6cdad3cd7205	not-for-merge	branch 'master' of https://github.com/krzyzanowskim/CryptoSwift
 dc83ce9087e00017e34427c55801e20162f22d5c	not-for-merge	branch 'swift12' of https://github.com/krzyzanowskim/CryptoSwift
 03a745bb6533ed97b055c1a2883be2b542a50252	not-for-merge	branch 'swift2' of https://github.com/krzyzanowskim/CryptoSwift
 0461202e013b8ff2ea07f4d05e42cf5dd373ccd0	not-for-merge	branch 'swift21' of https://github.com/krzyzanowskim/CryptoSwift
@@ -192,24 +191,30 @@ d322f5c19af7e6b9dc1537e03eb25867ed19b017	not-for-merge	'refs/pull/536/head' of h
 349e147822bdc1f1e2df9ca515c95dd87ad6b3a8	not-for-merge	'refs/pull/556/head' of https://github.com/krzyzanowskim/CryptoSwift
 2bc876991b8fb3a9c57395b92b3608e64fd686a5	not-for-merge	'refs/pull/556/merge' of https://github.com/krzyzanowskim/CryptoSwift
 a4ef615b958a956662f2d90a8ca15d9051fd6d3d	not-for-merge	'refs/pull/558/head' of https://github.com/krzyzanowskim/CryptoSwift
-beea9746f7f721ad2e09d497e3a8d61eeecf5ca8	not-for-merge	'refs/pull/567/head' of https://github.com/krzyzanowskim/CryptoSwift
-24df31c0545ed847736cd17c75473e7459e350e2	not-for-merge	'refs/pull/567/merge' of https://github.com/krzyzanowskim/CryptoSwift
+da48dc111f5b23362d9ec416dd7f9818a8d12a63	not-for-merge	'refs/pull/567/head' of https://github.com/krzyzanowskim/CryptoSwift
 1dd170a3b9a1113e7e9577cf7dfbde353faaffe1	not-for-merge	'refs/pull/571/head' of https://github.com/krzyzanowskim/CryptoSwift
 5491a01d00d70d35a6f01ce49fed2ea32f29c5f0	not-for-merge	'refs/pull/578/head' of https://github.com/krzyzanowskim/CryptoSwift
 f2970b59faeb27df85c585460eca05ac86678638	not-for-merge	'refs/pull/58/head' of https://github.com/krzyzanowskim/CryptoSwift
 1a399492c919ca7d267e2d4a62172e0eb7f5d912	not-for-merge	'refs/pull/580/head' of https://github.com/krzyzanowskim/CryptoSwift
 6b5f1603581c0d702e34a74319ad53c67b4fa3c9	not-for-merge	'refs/pull/580/merge' of https://github.com/krzyzanowskim/CryptoSwift
-43bac3708b07d4c40b19b78a96fe20f4191bc724	not-for-merge	'refs/pull/583/head' of https://github.com/krzyzanowskim/CryptoSwift
-22407310c2d9315808d57684c96a057e76e71cf4	not-for-merge	'refs/pull/583/merge' of https://github.com/krzyzanowskim/CryptoSwift
+5a08df322cd9e8357327bca0ae544fb1a1493c27	not-for-merge	'refs/pull/583/head' of https://github.com/krzyzanowskim/CryptoSwift
 bffc851967329592e87fb95e224b9b54847b704d	not-for-merge	'refs/pull/585/head' of https://github.com/krzyzanowskim/CryptoSwift
 452018549ddcf7da230b84a19c04c66ac7dc6dd8	not-for-merge	'refs/pull/586/head' of https://github.com/krzyzanowskim/CryptoSwift
 a0148e21968f54b894df30466736ea58f1903c79	not-for-merge	'refs/pull/586/merge' of https://github.com/krzyzanowskim/CryptoSwift
 90730358a5749b45e6d8d6bf2adb092e2f0c639d	not-for-merge	'refs/pull/587/head' of https://github.com/krzyzanowskim/CryptoSwift
-f810b474f421addda5713e49e9d92c5165c9d870	not-for-merge	'refs/pull/587/merge' of https://github.com/krzyzanowskim/CryptoSwift
 a53ba92685280b181d52f706bfb54ae37ddf5f93	not-for-merge	'refs/pull/59/head' of https://github.com/krzyzanowskim/CryptoSwift
 dc6200f70a4e21904216c1b4416a97f5572c3bfd	not-for-merge	'refs/pull/59/merge' of https://github.com/krzyzanowskim/CryptoSwift
+10b614f329543493ffac228c28e0659142b805ea	not-for-merge	'refs/pull/590/head' of https://github.com/krzyzanowskim/CryptoSwift
+753ca3ab346ff7e08c161c4c6f2b7d8bc8d05311	not-for-merge	'refs/pull/602/head' of https://github.com/krzyzanowskim/CryptoSwift
+be0e050123b556e9cab409ab7f30efc41756a7cd	not-for-merge	'refs/pull/603/head' of https://github.com/krzyzanowskim/CryptoSwift
+d2f63ee04a55ac786e27ab7d00ed2ba3dd8a7cfe	not-for-merge	'refs/pull/603/merge' of https://github.com/krzyzanowskim/CryptoSwift
+6131efffc45ba3567f9c1662421a4f15912b5f65	not-for-merge	'refs/pull/609/head' of https://github.com/krzyzanowskim/CryptoSwift
 3753ee7be59617961a5a967347032cc8111c55dd	not-for-merge	'refs/pull/61/head' of https://github.com/krzyzanowskim/CryptoSwift
+67b5f3c8ca4f496e43390700e7efc79a1fc8fd82	not-for-merge	'refs/pull/612/head' of https://github.com/krzyzanowskim/CryptoSwift
+07807848a50f7e3f40af6aca8bae31a1c7fa040d	not-for-merge	'refs/pull/612/merge' of https://github.com/krzyzanowskim/CryptoSwift
 c57e424c3e165186b127a078c6d22c918b61fe10	not-for-merge	'refs/pull/62/head' of https://github.com/krzyzanowskim/CryptoSwift
+04f8818303d91f7e8fc83f9096b43c52f532dac5	not-for-merge	'refs/pull/620/head' of https://github.com/krzyzanowskim/CryptoSwift
+d8af6b70282582ee6a69715e56333e4191f92744	not-for-merge	'refs/pull/620/merge' of https://github.com/krzyzanowskim/CryptoSwift
 82846e01342dba8eae92a4521a79e225071d34f0	not-for-merge	'refs/pull/67/head' of https://github.com/krzyzanowskim/CryptoSwift
 aef0469f25e04c79ce5d917a60e363a3857b75fe	not-for-merge	'refs/pull/69/head' of https://github.com/krzyzanowskim/CryptoSwift
 e40896b60f0d09ff95e1526c72c936ecdd6aac9c	not-for-merge	'refs/pull/69/merge' of https://github.com/krzyzanowskim/CryptoSwift
@@ -274,3 +279,4 @@ d0084e4a6fe9490b3baab3d3c2aad58d3a852daf	not-for-merge	tag '0.8.0' of https://gi
 0f5c068f1689984b47a5651e2188d2e95365e403	not-for-merge	tag '0.8.1' of https://github.com/krzyzanowskim/CryptoSwift
 89e6f04dabd2809142735017f7825132878a1ba9	not-for-merge	tag '0.8.2' of https://github.com/krzyzanowskim/CryptoSwift
 f2ca9c377d4b44596a131e37eeb908221fb6e6be	not-for-merge	tag '0.8.3' of https://github.com/krzyzanowskim/CryptoSwift
+526d5e91569b30857d8def9ea22ad7265b70d238	not-for-merge	tag '0.9.0' of https://github.com/krzyzanowskim/CryptoSwift

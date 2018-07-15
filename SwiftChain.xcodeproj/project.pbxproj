@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031BE14B20FB0769000D50C9 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE14A20FB0769000D50C9 /* Block.swift */; };
+		031BE14C20FB07CF000D50C9 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE14A20FB0769000D50C9 /* Block.swift */; };
+		031BE14E20FB09FA000D50C9 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE14D20FB09FA000D50C9 /* Server.swift */; };
+		031BE14F20FB0A09000D50C9 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE14D20FB09FA000D50C9 /* Server.swift */; };
+		03C9A0AB20C5235900137665 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C9A0AA20C5235900137665 /* Blockchain.swift */; };
+		03C9A0AD20C524F100137665 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C9A0AC20C524F100137665 /* Transaction.swift */; };
+		03C9A0AE20C525FA00137665 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C9A0AA20C5235900137665 /* Blockchain.swift */; };
+		03C9A0AF20C525FD00137665 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C9A0AC20C524F100137665 /* Transaction.swift */; };
 		OBJ_102 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_104 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */; };
 		OBJ_111 /* AES.Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* AES.Cryptors.swift */; };
 		OBJ_112 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* AES.swift */; };
 		OBJ_113 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Array+Extension.swift */; };
-		OBJ_114 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Array+Extensions.swift */; };
 		OBJ_115 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Authenticator.swift */; };
 		OBJ_116 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* BatchedCollection.swift */; };
 		OBJ_117 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Bit.swift */; };
@@ -87,12 +94,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031BE14A20FB0769000D50C9 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		031BE14D20FB09FA000D50C9 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		03C9A0AA20C5235900137665 /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		03C9A0AC20C524F100137665 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		"CryptoSwift::CryptoSwift::Product" /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_11 /* SwiftChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftChain; sourceTree = SOURCE_ROOT; };
 		OBJ_15 /* AES.Cryptors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.Cryptors.swift; sourceTree = "<group>"; };
 		OBJ_16 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		OBJ_18 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		OBJ_19 /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
 		OBJ_20 /* BatchedCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchedCollection.swift; sourceTree = "<group>"; };
 		OBJ_21 /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
@@ -207,7 +216,6 @@
 				OBJ_15 /* AES.Cryptors.swift */,
 				OBJ_16 /* AES.swift */,
 				OBJ_17 /* Array+Extension.swift */,
-				OBJ_18 /* Array+Extensions.swift */,
 				OBJ_19 /* Authenticator.swift */,
 				OBJ_20 /* BatchedCollection.swift */,
 				OBJ_21 /* Bit.swift */,
@@ -290,7 +298,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
-				OBJ_11 /* SwiftChain */,
 				OBJ_12 /* Dependencies */,
 				OBJ_82 /* Products */,
 			);
@@ -320,6 +327,10 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* main.swift */,
+				031BE14A20FB0769000D50C9 /* Block.swift */,
+				03C9A0AA20C5235900137665 /* Blockchain.swift */,
+				031BE14D20FB09FA000D50C9 /* Server.swift */,
+				03C9A0AC20C524F100137665 /* Transaction.swift */,
 			);
 			path = SwiftChain;
 			sourceTree = SOURCE_ROOT;
@@ -403,7 +414,7 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					"SwiftChain::SwiftChain" = {
 						LastSwiftMigration = 0920;
@@ -435,6 +446,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				031BE14F20FB0A09000D50C9 /* Server.swift in Sources */,
+				03C9A0AF20C525FD00137665 /* Transaction.swift in Sources */,
+				031BE14C20FB07CF000D50C9 /* Block.swift in Sources */,
+				03C9A0AE20C525FA00137665 /* Blockchain.swift in Sources */,
 				OBJ_102 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +461,6 @@
 				OBJ_111 /* AES.Cryptors.swift in Sources */,
 				OBJ_112 /* AES.swift in Sources */,
 				OBJ_113 /* Array+Extension.swift in Sources */,
-				OBJ_114 /* Array+Extensions.swift in Sources */,
 				OBJ_115 /* Authenticator.swift in Sources */,
 				OBJ_116 /* BatchedCollection.swift in Sources */,
 				OBJ_117 /* Bit.swift in Sources */,
@@ -513,7 +527,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				031BE14E20FB09FA000D50C9 /* Server.swift in Sources */,
 				OBJ_90 /* Package.swift in Sources */,
+				031BE14B20FB0769000D50C9 /* Block.swift in Sources */,
+				03C9A0AB20C5235900137665 /* Blockchain.swift in Sources */,
+				03C9A0AD20C524F100137665 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,11 +626,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -654,11 +674,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
