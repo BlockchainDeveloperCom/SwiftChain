@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CryptoSwift
 
 struct Blockchain {
     private var _chain: [Block]
@@ -74,7 +73,7 @@ struct Blockchain {
         guard let guess = Data(base64Encoded: "f\(lastProof)\(proof)") else {
             return false
         }
-        let guessHash = guess.sha256().toHexString()
+        let guessHash = guess.sha256.hexEncodedString()
         let offset = 1 // easy v hard
         let index = guessHash.index(guessHash.startIndex, offsetBy: offset)
         let result = String(guessHash[..<index]) == "0"         // easy

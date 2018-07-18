@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CryptoSwift
 
 struct Block: Codable {
     let index: Int
@@ -17,8 +16,7 @@ struct Block: Codable {
 
     var hash: Data? {
         do {
-            let data = try JSONEncoder().encode(self)
-            return data.sha256()
+            return try JSONEncoder().encode(self).sha256
         } catch {
             return nil
         }

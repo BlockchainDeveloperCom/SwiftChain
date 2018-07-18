@@ -44,5 +44,9 @@ final class Server {
     }
 
     // GET /chain
-    var chain: [Block] { return blockchain.chain }
+    var chain: [Block] {
+        return blockchain.chain.sorted(by: { (block0, block1) -> Bool in
+            block0.timestamp > block1.timestamp
+        })
+    }
 }
