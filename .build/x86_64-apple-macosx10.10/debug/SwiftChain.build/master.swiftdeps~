@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "2324fcd4c917f83c66cf1803a99dfc1b"
-build_time: [1520663487, 409850000]
-inputs:
-  "/Users/pouriaalmassi/Developer/pouriaalmassi/SwiftChain/SwiftChain/main.swift": [1520663396, 0]
