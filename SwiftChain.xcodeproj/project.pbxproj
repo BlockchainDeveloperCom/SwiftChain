@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03F009052102FDFA001C17F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F009042102FDFA001C17F0 /* AppDelegate.swift */; };
+		03F009072102FDFA001C17F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F009062102FDFA001C17F0 /* ViewController.swift */; };
+		03F009092102FDFA001C17F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F009082102FDFA001C17F0 /* Assets.xcassets */; };
+		03F0090C2102FDFA001C17F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F0090A2102FDFA001C17F0 /* Main.storyboard */; };
+		03F009122102FE00001C17F0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BF920FF2DA3000B1104 /* Block.swift */; };
+		03F009132102FE03001C17F0 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BFC20FF2DA3000B1104 /* Blockchain.swift */; };
+		03F009142102FE07001C17F0 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BFA20FF2DA3000B1104 /* Server.swift */; };
+		03F009152102FE0A001C17F0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BFB20FF2DA3000B1104 /* Transaction.swift */; };
+		03F009162102FE0F001C17F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E113B020FF365B00578D42 /* Extensions.swift */; };
 		E34B9BE120FF2CC1000B1104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BE020FF2CC1000B1104 /* AppDelegate.swift */; };
 		E34B9BE320FF2CC1000B1104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B9BE220FF2CC1000B1104 /* ViewController.swift */; };
 		E34B9BE620FF2CC1000B1104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34B9BE420FF2CC1000B1104 /* Main.storyboard */; };
@@ -20,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03F009022102FDF9001C17F0 /* SwiftChain macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftChain macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F009042102FDFA001C17F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F009062102FDFA001C17F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F009082102FDFA001C17F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F0090B2102FDFA001C17F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F0090D2102FDFA001C17F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F0090E2102FDFA001C17F0 /* SwiftChain_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftChain_macOS.entitlements; sourceTree = "<group>"; };
+		03F0091721030001001C17F0 /* SwiftChain macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftChain macOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		E32159A520FF314900D5F602 /* SwiftChain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftChain-Bridging-Header.h"; sourceTree = "<group>"; };
 		E34B9BDD20FF2CC1000B1104 /* SwiftChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34B9BE020FF2CC1000B1104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03F008FF2102FDF9001C17F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E34B9BDA20FF2CC1000B1104 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,10 +70,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03F009032102FDFA001C17F0 /* SwiftChain macOS */ = {
+			isa = PBXGroup;
+			children = (
+				03F009042102FDFA001C17F0 /* AppDelegate.swift */,
+				03F009062102FDFA001C17F0 /* ViewController.swift */,
+				03F009082102FDFA001C17F0 /* Assets.xcassets */,
+				03F0090A2102FDFA001C17F0 /* Main.storyboard */,
+				03F0090D2102FDFA001C17F0 /* Info.plist */,
+				03F0090E2102FDFA001C17F0 /* SwiftChain_macOS.entitlements */,
+				03F0091721030001001C17F0 /* SwiftChain macOS-Bridging-Header.h */,
+			);
+			path = "SwiftChain macOS";
+			sourceTree = "<group>";
+		};
 		E34B9BD420FF2CC1000B1104 = {
 			isa = PBXGroup;
 			children = (
 				E34B9BDF20FF2CC1000B1104 /* SwiftChain */,
+				03F009032102FDFA001C17F0 /* SwiftChain macOS */,
 				E34B9BDE20FF2CC1000B1104 /* Products */,
 				E34B9BF320FF2D4F000B1104 /* Frameworks */,
 			);
@@ -59,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E34B9BDD20FF2CC1000B1104 /* SwiftChain.app */,
+				03F009022102FDF9001C17F0 /* SwiftChain macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +164,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		03F009012102FDF9001C17F0 /* SwiftChain macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F009112102FDFA001C17F0 /* Build configuration list for PBXNativeTarget "SwiftChain macOS" */;
+			buildPhases = (
+				03F008FE2102FDF9001C17F0 /* Sources */,
+				03F008FF2102FDF9001C17F0 /* Frameworks */,
+				03F009002102FDF9001C17F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftChain macOS";
+			productName = "SwiftChain macOS";
+			productReference = 03F009022102FDF9001C17F0 /* SwiftChain macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E34B9BDC20FF2CC1000B1104 /* SwiftChain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E34B9BEF20FF2CC2000B1104 /* Build configuration list for PBXNativeTarget "SwiftChain" */;
@@ -147,10 +204,14 @@
 		E34B9BD520FF2CC1000B1104 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Blockchain Developer";
 				TargetAttributes = {
+					03F009012102FDF9001C17F0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
 					E34B9BDC20FF2CC1000B1104 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 0940;
@@ -171,11 +232,21 @@
 			projectRoot = "";
 			targets = (
 				E34B9BDC20FF2CC1000B1104 /* SwiftChain */,
+				03F009012102FDF9001C17F0 /* SwiftChain macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		03F009002102FDF9001C17F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F009092102FDFA001C17F0 /* Assets.xcassets in Resources */,
+				03F0090C2102FDFA001C17F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E34B9BDB20FF2CC1000B1104 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +260,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		03F008FE2102FDF9001C17F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F009142102FE07001C17F0 /* Server.swift in Sources */,
+				03F009122102FE00001C17F0 /* Block.swift in Sources */,
+				03F009152102FE0A001C17F0 /* Transaction.swift in Sources */,
+				03F009132102FE03001C17F0 /* Blockchain.swift in Sources */,
+				03F009072102FDFA001C17F0 /* ViewController.swift in Sources */,
+				03F009052102FDFA001C17F0 /* AppDelegate.swift in Sources */,
+				03F009162102FE0F001C17F0 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E34B9BD920FF2CC1000B1104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +291,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		03F0090A2102FDFA001C17F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F0090B2102FDFA001C17F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E34B9BE420FF2CC1000B1104 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -225,6 +318,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		03F0090F2102FDFA001C17F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SwiftChain macOS/SwiftChain_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8KN7LGD597;
+				INFOPLIST_FILE = "SwiftChain macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pouriaalmassi.SwiftChain-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftChain macOS/SwiftChain macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		03F009102102FDFA001C17F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "SwiftChain macOS/SwiftChain_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8KN7LGD597;
+				INFOPLIST_FILE = "SwiftChain macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pouriaalmassi.SwiftChain-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftChain macOS/SwiftChain macOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		E34B9BED20FF2CC2000B1104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +490,7 @@
 				DEVELOPMENT_TEAM = 8KN7LGD597;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,6 +513,7 @@
 				DEVELOPMENT_TEAM = 8KN7LGD597;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +529,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		03F009112102FDFA001C17F0 /* Build configuration list for PBXNativeTarget "SwiftChain macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F0090F2102FDFA001C17F0 /* Debug */,
+				03F009102102FDFA001C17F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E34B9BD820FF2CC1000B1104 /* Build configuration list for PBXProject "SwiftChain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
